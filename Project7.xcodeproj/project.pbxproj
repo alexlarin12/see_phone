@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		590EED3C229433F800B54399 /* FourTitleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3B229433F800B54399 /* FourTitleCollectionViewController.swift */; };
+		590EED3E2294341700B54399 /* OneTitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3D2294341700B54399 /* OneTitleTableViewController.swift */; };
+		590EED402294342E00B54399 /* TwoTitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3F2294342E00B54399 /* TwoTitleTableViewController.swift */; };
+		590EED422294344600B54399 /* ThreeTitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED412294344600B54399 /* ThreeTitleTableViewController.swift */; };
 		59DA9623228DCFA0007F3DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DA9622228DCFA0007F3DEC /* AppDelegate.swift */; };
 		59DA9628228DCFA0007F3DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DA9626228DCFA0007F3DEC /* Main.storyboard */; };
 		59DA962A228DCFA1007F3DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DA9629228DCFA1007F3DEC /* Assets.xcassets */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		590EED3B229433F800B54399 /* FourTitleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourTitleCollectionViewController.swift; sourceTree = "<group>"; };
+		590EED3D2294341700B54399 /* OneTitleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTitleTableViewController.swift; sourceTree = "<group>"; };
+		590EED3F2294342E00B54399 /* TwoTitleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTitleTableViewController.swift; sourceTree = "<group>"; };
+		590EED412294344600B54399 /* ThreeTitleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTitleTableViewController.swift; sourceTree = "<group>"; };
 		59DA961F228DCFA0007F3DEC /* Project7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DA9622228DCFA0007F3DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59DA9627228DCFA0007F3DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5909CFCE2293130E0002A10E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				59DA9634228DD1D0007F3DEC /* LaunchController.swift */,
+				590EED3B229433F800B54399 /* FourTitleCollectionViewController.swift */,
+				590EED3D2294341700B54399 /* OneTitleTableViewController.swift */,
+				590EED3F2294342E00B54399 /* TwoTitleTableViewController.swift */,
+				590EED412294344600B54399 /* ThreeTitleTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		59DA9616228DCF9F007F3DEC = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +79,7 @@
 				59DA9629228DCFA1007F3DEC /* Assets.xcassets */,
 				59DA962B228DCFA1007F3DEC /* LaunchScreen.storyboard */,
 				59DA962E228DCFA1007F3DEC /* Info.plist */,
-				59DA9634228DD1D0007F3DEC /* LaunchController.swift */,
+				5909CFCE2293130E0002A10E /* Controllers */,
 			);
 			path = Project7;
 			sourceTree = "<group>";
@@ -136,6 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DA9635228DD1D0007F3DEC /* LaunchController.swift in Sources */,
+				590EED3E2294341700B54399 /* OneTitleTableViewController.swift in Sources */,
+				590EED402294342E00B54399 /* TwoTitleTableViewController.swift in Sources */,
+				590EED422294344600B54399 /* ThreeTitleTableViewController.swift in Sources */,
+				590EED3C229433F800B54399 /* FourTitleCollectionViewController.swift in Sources */,
 				59DA9623228DCFA0007F3DEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
