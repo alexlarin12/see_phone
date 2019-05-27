@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		590EED3C229433F800B54399 /* FourTitleCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3B229433F800B54399 /* FourTitleCollectionViewController.swift */; };
-		590EED3E2294341700B54399 /* OneTitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3D2294341700B54399 /* OneTitleTableViewController.swift */; };
-		590EED402294342E00B54399 /* TwoTitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3F2294342E00B54399 /* TwoTitleTableViewController.swift */; };
-		590EED422294344600B54399 /* ThreeTitleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED412294344600B54399 /* ThreeTitleTableViewController.swift */; };
+		590EED3C229433F800B54399 /* FriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3B229433F800B54399 /* FriendsCollectionViewController.swift */; };
+		590EED3E2294341700B54399 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3D2294341700B54399 /* FriendsTableViewController.swift */; };
+		590EED402294342E00B54399 /* MyGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED3F2294342E00B54399 /* MyGroupsTableViewController.swift */; };
+		590EED422294344600B54399 /* AnyGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590EED412294344600B54399 /* AnyGroupsTableViewController.swift */; };
+		59826D5722971C89007D46F8 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59826D5622971C89007D46F8 /* FriendCell.swift */; };
+		59826D5922971DE4007D46F8 /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59826D5822971DE4007D46F8 /* ForecastCell.swift */; };
+		59826D6122994652007D46F8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59826D6022994652007D46F8 /* UserModel.swift */; };
+		59826D6D2299AE93007D46F8 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59826D6C2299AE93007D46F8 /* GroupCell.swift */; };
+		59826D6F229A5F6B007D46F8 /* GroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59826D6E229A5F6B007D46F8 /* GroupModel.swift */; };
 		59DA9623228DCFA0007F3DEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DA9622228DCFA0007F3DEC /* AppDelegate.swift */; };
 		59DA9628228DCFA0007F3DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DA9626228DCFA0007F3DEC /* Main.storyboard */; };
 		59DA962A228DCFA1007F3DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DA9629228DCFA1007F3DEC /* Assets.xcassets */; };
@@ -19,10 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		590EED3B229433F800B54399 /* FourTitleCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourTitleCollectionViewController.swift; sourceTree = "<group>"; };
-		590EED3D2294341700B54399 /* OneTitleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTitleTableViewController.swift; sourceTree = "<group>"; };
-		590EED3F2294342E00B54399 /* TwoTitleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTitleTableViewController.swift; sourceTree = "<group>"; };
-		590EED412294344600B54399 /* ThreeTitleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTitleTableViewController.swift; sourceTree = "<group>"; };
+		590EED3B229433F800B54399 /* FriendsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewController.swift; sourceTree = "<group>"; };
+		590EED3D2294341700B54399 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		590EED3F2294342E00B54399 /* MyGroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableViewController.swift; sourceTree = "<group>"; };
+		590EED412294344600B54399 /* AnyGroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyGroupsTableViewController.swift; sourceTree = "<group>"; };
+		59826D5622971C89007D46F8 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		59826D5822971DE4007D46F8 /* ForecastCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		59826D6022994652007D46F8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		59826D6C2299AE93007D46F8 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		59826D6E229A5F6B007D46F8 /* GroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupModel.swift; sourceTree = "<group>"; };
 		59DA961F228DCFA0007F3DEC /* Project7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59DA9622228DCFA0007F3DEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59DA9627228DCFA0007F3DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,12 +57,31 @@
 			isa = PBXGroup;
 			children = (
 				59DA9634228DD1D0007F3DEC /* LaunchController.swift */,
-				590EED3B229433F800B54399 /* FourTitleCollectionViewController.swift */,
-				590EED3D2294341700B54399 /* OneTitleTableViewController.swift */,
-				590EED3F2294342E00B54399 /* TwoTitleTableViewController.swift */,
-				590EED412294344600B54399 /* ThreeTitleTableViewController.swift */,
+				590EED3B229433F800B54399 /* FriendsCollectionViewController.swift */,
+				590EED3D2294341700B54399 /* FriendsTableViewController.swift */,
+				590EED3F2294342E00B54399 /* MyGroupsTableViewController.swift */,
+				590EED412294344600B54399 /* AnyGroupsTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		59826D5A22971E27007D46F8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				59826D5622971C89007D46F8 /* FriendCell.swift */,
+				59826D5822971DE4007D46F8 /* ForecastCell.swift */,
+				59826D6C2299AE93007D46F8 /* GroupCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		59826D5F229945F8007D46F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59826D6022994652007D46F8 /* UserModel.swift */,
+				59826D6E229A5F6B007D46F8 /* GroupModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		59DA9616228DCF9F007F3DEC = {
@@ -80,6 +109,8 @@
 				59DA962B228DCFA1007F3DEC /* LaunchScreen.storyboard */,
 				59DA962E228DCFA1007F3DEC /* Info.plist */,
 				5909CFCE2293130E0002A10E /* Controllers */,
+				59826D5A22971E27007D46F8 /* Cells */,
+				59826D5F229945F8007D46F8 /* Models */,
 			);
 			path = Project7;
 			sourceTree = "<group>";
@@ -155,11 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59826D5722971C89007D46F8 /* FriendCell.swift in Sources */,
 				59DA9635228DD1D0007F3DEC /* LaunchController.swift in Sources */,
-				590EED3E2294341700B54399 /* OneTitleTableViewController.swift in Sources */,
-				590EED402294342E00B54399 /* TwoTitleTableViewController.swift in Sources */,
-				590EED422294344600B54399 /* ThreeTitleTableViewController.swift in Sources */,
-				590EED3C229433F800B54399 /* FourTitleCollectionViewController.swift in Sources */,
+				59826D6D2299AE93007D46F8 /* GroupCell.swift in Sources */,
+				590EED3E2294341700B54399 /* FriendsTableViewController.swift in Sources */,
+				590EED402294342E00B54399 /* MyGroupsTableViewController.swift in Sources */,
+				59826D6F229A5F6B007D46F8 /* GroupModel.swift in Sources */,
+				59826D5922971DE4007D46F8 /* ForecastCell.swift in Sources */,
+				590EED422294344600B54399 /* AnyGroupsTableViewController.swift in Sources */,
+				590EED3C229433F800B54399 /* FriendsCollectionViewController.swift in Sources */,
+				59826D6122994652007D46F8 /* UserModel.swift in Sources */,
 				59DA9623228DCFA0007F3DEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
