@@ -28,7 +28,7 @@ class LaunchController: UIViewController {
         if UsernameTextField.text == "",
         PasswordTextField.text == "" {
         print("Успешный вход.")
-        performSegue(withIdentifier: "showMyCitiesController", sender: nil)
+        performSegue(withIdentifier: "showFriendsController", sender: nil)
         } else {
         let alert = UIAlertController(title: "Error", message: "Incorrect login or password", preferredStyle: .alert)
         let action = UIAlertAction(title: "Ok", style: .default) { _ in
